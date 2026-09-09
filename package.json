@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "framer-motion": "^12.23.12",
@@ -19,8 +20,5 @@
     "@vitejs/plugin-react": "^5.0.2",
     "tailwindcss": "^4.1.13",
     "vite": "^7.1.2"
-  },
-  "scripts2": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
