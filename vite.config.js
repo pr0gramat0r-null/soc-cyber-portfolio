@@ -9,7 +9,7 @@ export default defineConfig({
 
 export default
   {
-    "scripts": {
+    "scripts2": {
       "test": "jest"
     }
   }
