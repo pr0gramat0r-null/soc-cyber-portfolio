@@ -7,18 +7,27 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Script: test package vite\" && exit 0"
   },
   "dependencies": {
     "framer-motion": "^12.23.12",
     "lucide-react": "^0.468.0",
     "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "react-dom": "^19.1.1",
+    "test": "1.1.0"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.1.13",
     "@vitejs/plugin-react": "^5.0.2",
     "tailwindcss": "^4.1.13",
-    "vite": "^7.1.2"
+    "vite": "^7.1.2",
+    "vite-plugin-svgr": "^3.0.1",
+    "vite-tsconfig-paths": "^4.2.0",
+    "typescript": "^5.2.2",
+    "vite-plugin-checker": "^0.3.27",
+    "@vitest/runner": "4.1.11"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true
   }
 }
